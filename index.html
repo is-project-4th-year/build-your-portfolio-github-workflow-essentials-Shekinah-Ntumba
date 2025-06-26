@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        line-height: 1.6;
+    }
+        
+    header {
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+        
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+        
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+        
+    .nav-links {
+        display: flex;
+        list-style: none;
+    }
+        
+    .nav-links li {
+        margin-left: 2rem;
+    }
+        
+    .nav-links a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+    }
+        
+    .hero {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 0 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-image: url('https://as2.ftcdn.net/v2/jpg/003/914/610/1000_F_391461057_3IA9f4HZxH7UOQY8xQ1Q2Q3Q4Q5Q6Q7Q.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+        
+    .hero-content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .hero-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 40px;
+        border: 3px solid white;
+    }
+        
+    .hero-text {
+        text-align: center;
+        flex: 1;
+    }
+    
+    .hero-content h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+        
+    .hero-content p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto 2rem auto;
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+    
+    .project-btn {
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .project-btn:hover {
+        background-color: #333;
+        transform: translateY(-2px);
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Shekinah Ntumba</div>
+                <ul class="nav-links">
+                    <li><a href="landingPage.html">HOME</a></li>
+                    <li><a href="AboutPage.html">ABOUT</a></li>
+                    <li><a href="ProjectsPage.html">PROJECTS</a></li>
+                    <li><a href="ContactPage.html">CONCTACT</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <img src="images/WhatsApp Image 2025-06-26 at 17.55.03_a817cdc0.jpg" alt="Me" class="hero-image">
+                <div class="hero-text">
+                    <h1>HEY, I'M SHEKINAH NTUMBA</h1>
+                    <p>A Full-Stack Web Developer passionate about building impactful digital solutions. I specialize in developing clean, responsive, and user-focused frontends—while also architecting robust backends with data-driven logic, API integrations, and machine learning features. Whether it's predictive systems, data analysis dashboards, or AI-powered applications, I combine design thinking with strong programming fundamentals to turn ideas into real-world solutions that make a difference.</p>
+                    <a href="ProjectsPage.html" class="project-btn">PROJECTS</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

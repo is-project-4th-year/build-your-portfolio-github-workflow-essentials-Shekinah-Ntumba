@@ -46,7 +46,7 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 ![Caption](path/to/your/image.png)
 ```
 
-### A. Milestones and Issues
+### A. Milestones 
 
 - Screenshot showing your milestone(s) and the issues linked to it.
 

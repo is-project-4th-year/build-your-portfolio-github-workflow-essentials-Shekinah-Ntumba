@@ -48,7 +48,7 @@
 
 ## 4. Screenshots of Key GitHub Features
 
-![Caption](images/branches.png)
+
 
 ### A. Milestones and Issues
 
